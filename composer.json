@@ -1,0 +1,28 @@
+{
+    "name": "ixocreate/servicemanager-contract",
+    "description": "Servicemanager contracts for IXOCREATE",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "IXOCREATE"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "ixocreate/coding-standard": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ixocreate\\Schema\\": "src/"
+        }
+    },
+    "scripts": {
+        "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config vendor/ixocreate/coding-standard/.php_cs"
+    }
+}
