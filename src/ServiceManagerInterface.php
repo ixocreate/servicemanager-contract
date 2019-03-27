@@ -40,4 +40,9 @@ interface ServiceManagerInterface extends ContainerInterface
      * @return array
      */
     public function getServices(): array;
+
+    /**
+     * @return array
+     */
+    public function initialServices(): array;
 }
